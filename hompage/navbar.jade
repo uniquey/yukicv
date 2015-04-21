@@ -16,16 +16,31 @@ template(name='navbar')
       //+navbarnav equally:
       +UI.dynamic template='navbarnav'
       //+DynamicTemplate template= getTemplate data= getDataContext
-      //+navbarright
+      +navbarright
 
 template(name='navbarnav')
   ul.nav.navbar-nav
     //li.active
     li
-      a(href= "growthTree") Growth Tree
+      a(href="pe") Personal Experience
     li
-      a(href="/") 
+      a(href= "gt") Growth Tree
+    li
+      a(href='pc') Personal Characteristics
     //li(id="middle-logo")
       //a(href="/") 
         //img(alt="marrytipsLogo" src="///assets/logoexample.png")
 
+template(name='navbarright')
+  ul.nav.navbar-nav.navbar-right
+    li.dropdown
+          a.dropdown-toggle(href='#', data-toggle='dropdown')
+              | Language
+              span.caret
+          ul.dropdown-menu
+            li
+              a(href='#') Chineese
+            li
+              a(href='/') English
+    li 
+      a(href= "cm") Contact me

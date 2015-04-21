@@ -1,0 +1,36 @@
+
+
+
+.navbar{
+    margin-bottom: 0px;
+}
+
+
+/*
+***Theme****
+*/
+
+.theme{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #FFCCCC;
+}
+.theme h1{
+    margin-left: 100px;
+    color: white;
+}
+
+
+
+
+/*
+***growthTree****
+*/
+.imgPossition{
+  margin-top: 30px;
+}
+
+.imgSize{
+  height: 78px;
+  width: 78px;
+}
