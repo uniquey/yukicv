@@ -15,11 +15,16 @@
     padding-bottom: 20px;
     background-color: #FFCCCC;
 }
-.theme h1{
+.theme h1, .blueTheme h1{
     margin-left: 100px;
     color: white;
 }
 
+.blueTheme{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color:#AFEEEE;
+}
 
 
 
