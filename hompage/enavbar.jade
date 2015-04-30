@@ -1,4 +1,4 @@
-template(name='navbar')
+template(name='enavbar')
   nav.navbar.navbar-default(role='navigation')
     .navbar-header
       button.navbar-toggle(type='button', data-toggle='collapse', data-target='#navbar-collapse')
@@ -14,28 +14,28 @@ template(name='navbar')
 
     #navbar-collapse.collapse.navbar-collapse
       //+navbarnav equally:
-      +UI.dynamic template='navbarnav'
+      +UI.dynamic template='enavbarnav'
       //+DynamicTemplate template= getTemplate data= getDataContext
-      +navbarright
+      +enavbarright
 
-template(name='navbarnav')
+template(name='enavbarnav')
   ul.nav.navbar-nav
     //li.active
     li
-      a(href="pe") 经历
+      a(href="epe") Personal Experience
     li
-      a(href= "gt") 成长
+      a(href= "egt") Growth Tree
     li
-      a(href='pc') 特点
+      a(href='epc') Personal Characteristics
     //li(id="middle-logo")
       //a(href="/") 
         //img(alt="marrytipsLogo" src="///assets/logoexample.png")
 
-template(name='navbarright')
+template(name='enavbarright')
   ul.nav.navbar-nav.navbar-right
     li.dropdown
           a.dropdown-toggle(href='#', data-toggle='dropdown')
-              | 语言
+              | Language
               span.caret
           ul.dropdown-menu
             li
@@ -43,4 +43,4 @@ template(name='navbarright')
             li
               a(href='ehome') English
     li 
-      a(href= "cm") 联系我
+      a(href= "cm") Contact me

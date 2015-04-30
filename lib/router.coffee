@@ -7,6 +7,11 @@ Router.onBeforeAction 'loading' # show loading template while waiting for the ac
 
 Router.map -> 
   @route 'home', path:'/'
+  @route 'egt'
+  @route 'epe'
+  @route 'epc'
+  @route 'ecm'
+  @route 'ehome'
   @route 'gt'
   @route 'pe'
   @route 'pc'
