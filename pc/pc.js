@@ -6,8 +6,9 @@ if (Meteor.isClient) {
       var theText = $(this).attr('id');
       //$('#ballText').addClass('hide');
       //$(this).closest('.buttonDiv').find('.ballText').removeClass("hide");
+      $('.button-hints').css('color','transparent')
       $('strong').text(theText);
-      $('.TVtext').find('p').removeClass('show')
+      $('.TVtext').find('p').removeClass('show');
       $('.'+theText).addClass('show');
     })
 
@@ -20,8 +21,9 @@ if (Meteor.isClient) {
       var theText = $(this).attr('id');
       //$('#ballText').addClass('hide');
       //$(this).closest('.buttonDiv').find('.ballText').removeClass("hide");
+      $('.button-hints').css('color','transparent')
       $('strong').text(theText);
-      $('.TVtext').find('p').removeClass('show')
+      $('.TVtext').find('p').removeClass('show');
       $('.'+theText).addClass('show');
     })
 
