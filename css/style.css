@@ -3,8 +3,12 @@
 
 .navbar{
     margin-bottom: 0px;
+    background: #ADCDF7;
 }
 
+nav li:hover,selected{
+  font-weight: bold
+}
 
 /*
 ***Theme****
@@ -26,7 +30,16 @@
   background-color:#AFEEEE;
 }
 
-
+/*
+***Personal Experience****
+*/
+.bs-docs-sidebar{
+  position:fixed;
+  top:200px;
+  bottom:auto;
+  left:auto;
+  right:270px;
+}
 
 /*
 ***growthTree****
@@ -40,6 +53,13 @@
   width: 78px;
 }
 
+.totop{
+  position:fixed;
+  top:auto;
+  bottom:100px;
+  left:auto;
+  right:50px;
+}
 
 /*
 ***Personal Characteristics****
@@ -49,7 +69,7 @@
   width: 100%;
   height: 570px;
   margin: 0,0,0,0;
-  background: url(http://ccksb.img44.wal8.com/img44/499357_20141029153158/143036585184.jpg) black no-repeat center;
+  background: url(http://ccksb.img45.wal8.com/img45/499357_20141029153158/143589633075.jpg) black no-repeat center;
 }
 
 
@@ -102,3 +122,28 @@
 }
 
 
+/*
+***Print****
+*/
+
+.img-print{
+  width:50%; 
+  padding-top: 10px;
+}
+
+
+
+.dl-short dt{
+  width: 100px;
+}
+
+.dl-short dd{
+  margin-left: 120px;
+}
+
+
+.return{
+  float: right;
+  margin-right: 100px;
+  background-color: #ADCDF7;
+}

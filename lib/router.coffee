@@ -16,3 +16,4 @@ Router.map ->
   @route 'pe'
   @route 'pc'
   @route 'cm'
+  @route 'print'
