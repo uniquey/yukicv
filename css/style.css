@@ -74,15 +74,15 @@ nav li:hover,selected{
 
 
 .magicButton{
-  width: 100px; 
-  height: 100px; 
+  width: 100px;
+  height: 100px;
   margin: 20px;
-  background:   #9F79EE; 
-  border-radius: 50px; 
+  background:   #9F79EE;
+  border-radius: 50px;
 }
 
 .magicButton:hover,selected{
-  background:   #8968CD; 
+  background:   #8968CD;
 }
 
 
@@ -127,7 +127,7 @@ nav li:hover,selected{
 */
 
 .img-print{
-  width:50%; 
+  width:50%;
   padding-top: 10px;
 }
 
@@ -140,6 +140,26 @@ nav li:hover,selected{
 .dl-short dd{
   margin-left: 120px;
 }
+
+
+.prph{
+  width: 100%;
+  height: 148px;
+}
+
+.black-box h5{
+  color: white;
+}
+.black-box h4{
+  color: white;
+}
+
+.black-box{
+  margin:0px 0px 0px 0px;
+  background: black;
+  filter: alpha(opacity=45);
+}
+
 
 
 .return{
