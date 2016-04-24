@@ -1,0 +1,12 @@
+.black-box h5{
+  color: white;
+}
+.black-box h4{
+  color: white;
+}
+
+.black-box{
+  margin:0px 0px 0px 0px;
+  background: black;
+  filter: alpha(opacity=45);
+}
