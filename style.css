@@ -12,7 +12,7 @@ h1{
   font-size:50px;
 }
 #information{
-  padding:0px;
+  margin:0px;
   background-image: url("http://pic.4j4j.cn/upload/pic/20150609/6f5c7cc13c.jpg");
   background-repeat: no-repeat;
 }
@@ -24,7 +24,7 @@ h1{
   margin-bottom:100px;
 }
 #work{
-  padding:0px;
+  margin:0px;
   background-image: url("http://img15.3lian.com/2015/f2/147/d/32.jpg");
   background-repeat: no-repeat;
 }
@@ -36,7 +36,7 @@ h1{
   margin-bottom:100px;
 }
 #education{
-  padding:0px;
+  margin:0px;
   background-image: url("http://pic.bizhi360.com/bpic/23/3423.jpg");
   background-repeat: no-repeat;
 }
