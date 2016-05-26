@@ -8,8 +8,12 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+h1{
+  font-size:50px;
+}
 #information{
-  width:500px;
+  padding-left:200px;
+  padding-right:200px;
 }
 .box{
  padding-top:200px;
@@ -17,7 +21,7 @@
 }
 
 .img-head{
-  height:40px;
+  height:100px;
 }
 
 .text-white{
@@ -43,7 +47,7 @@ h3.text-black{
   color: white;
 }
 
-#portfolio{
+#product{
   background-image: url("http://img.51tietu.net/upload/2013-4/201304261304515865.jpg");
   background-repeat: no-repeat;
 }
