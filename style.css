@@ -8,6 +8,9 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+#information{
+  width:500px;
+}
 .box{
  padding-top:200px;
  padding-bottom:200px;
