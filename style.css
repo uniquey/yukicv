@@ -1,7 +1,48 @@
-.main-content{
-  font-size: 16px;
+.navbar-fixed-top{
+  top: 0px;
 }
-.black-box h5{
+#home{
+  margin: -50px 0px 0px 0px;
+  padding: 0px;
+  background-image: url("http://www.zhysj.net/bigimg/31/31620496a4a6d0a2db889eea2b857a94.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.box{
+ padding-top:200px;
+ padding-bottom:200px;
+}
+h1{
+  font-size:49px;
+}
+.text-white{
+  color:white;
+}
+h1.text-white{
+  text-shadow: black 2px 2px 5px;
+}
+text-black{
+  color: black;
+}
+h3.text-black{
+  text-shadow: white 1px 1px 3px;
+}
+
+#about{
+  background-image: url("http://www.deskier.com/d/file/zhiwu/2013-07-27/0355c4201fb356e1283dccf1e7b90e61.jpg");
+  background-repeat: no-repeat;
+}
+
+#about h4{
+  line-height:200%;
+  color: white;
+}
+
+#portfolio{
+  background-image: url("http://img.51tietu.net/upload/2013-4/201304261304515865.jpg");
+  background-repeat: no-repeat;
+}
+.black-box h3{
   color: white;
 }
 .black-box h4{
@@ -12,4 +53,17 @@
   margin:0px 0px 0px 0px;
   background: black;
   filter: alpha(opacity=45);
+}
+
+#contact{
+  background-image: url("http://image.tianjimedia.com/uploadImages/2013/164/UQ54CVK5Y82W_1440x900.jpg");
+  background-repeat: no-repeat;
+  
+}
+#contact h1{
+  margin-bottom: 50px;
+}
+#page-bottom{
+  padding:50px 0px 50px 0px;
+  background-color:#D0D0D0;
 }
