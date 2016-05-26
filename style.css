@@ -12,7 +12,7 @@ h1{
   font-size:50px;
 }
 #information{
-  margin:0px;
+  margin:0px 0px 0px -50px;
   background-image: url("http://desk.xker.com/wall/20080106/EP011.jpg");
   background-repeat: no-repeat;
 }
