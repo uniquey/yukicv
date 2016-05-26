@@ -74,9 +74,9 @@ h3.text-black{
   background: black;
   filter: alpha(opacity=45);
 }
-.imgSize{
-  height: 78px;
-  width: 78px;
+.prph{
+  width: 100%;
+  height: 148px;
 }
 #contact{
   background-image: url("http://image.tianjimedia.com/uploadImages/2013/164/UQ54CVK5Y82W_1440x900.jpg");
