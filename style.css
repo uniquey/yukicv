@@ -12,25 +12,31 @@ h1{
   font-size:50px;
 }
 #information{
-  width:500px;
-  margin-left:200px;
-  margin-right:200px;
   background-image: url("http://pic.4j4j.cn/upload/pic/20150609/6f5c7cc13c.jpg");
   background-repeat: no-repeat;
 }
-#work{
+#information block{
   width:500px;
   margin-left:200px;
   margin-right:200px;
+}
+#work{
   background-image: url("http://img15.3lian.com/2015/f2/147/d/32.jpg");
   background-repeat: no-repeat;
 }
-#education{
+#work block{
   width:500px;
   margin-left:200px;
   margin-right:200px;
+}
+#education{
   background-image: url("http://pic.bizhi360.com/bpic/23/3423.jpg");
   background-repeat: no-repeat;
+}
+#education block{
+  width:500px;
+  margin-left:200px;
+  margin-right:200px;
 }
 .box{
  padding-top:200px;
