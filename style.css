@@ -12,7 +12,6 @@ h1{
   font-size:50px;
 }
 #information{
-  margin:0px 0px -10px 0px;
   background-image: url("http://pic.bizhi360.com/bpic/44/1844.jpg");
   background-repeat: no-repeat;
 }
@@ -21,6 +20,7 @@ h1{
   margin-left:200px;
   margin-right:200px;
   padding-top:50px;
+  padding-bottom:50px;
 }
 #work{
   margin:0px;
