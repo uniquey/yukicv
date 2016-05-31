@@ -24,7 +24,7 @@ h1{
 }
 #work{
   margin:0px;
-  background-image: url("http://www.deskier.com/d/file/zhiwu/2013-07-27/0355c4201fb356e1283dccf1e7b90e61.jpg");
+  background-image: url("http://img.51tietu.net/upload/2013-4/201304261304515865.jpg");
   background-repeat: no-repeat;
 }
 #work .block{
@@ -66,15 +66,7 @@ h3.text-black{
   text-shadow: white 1px 1px 3px;
 }
 
-#about{
-  background-image: url("http://www.deskier.com/d/file/zhiwu/2013-07-27/0355c4201fb356e1283dccf1e7b90e61.jpg");
-  background-repeat: no-repeat;
-}
 
-#about h4{
-  line-height:200%;
-  color: white;
-}
 
 #product{
   background-image: url("http://img.51tietu.net/upload/2013-4/201304261304515865.jpg");
