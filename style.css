@@ -80,6 +80,10 @@ h3.text-black{
   background-image: url("http://img.51tietu.net/upload/2013-4/201304261304515865.jpg");
   background-repeat: no-repeat;
 }
+#product .col-md-4{
+  margin-bottom:20px;
+}
+
 .black-box h3{
   color: white;
 }
@@ -87,9 +91,9 @@ h3.text-black{
   color: white;
 }
 
-.black-box{
+.detail-box{
   margin:0px 0px 0px 0px;
-  background: black;
+  background:	#9AFF9A;
   filter: alpha(opacity=45);
 }
 .prph{
